@@ -12,14 +12,13 @@ const MainLayout = ({ children }) => {
     return (
         <Flex minH="100vh" direction="column">
             <Box
-                mx="auto"
-                maxW={"7xl"}
-                width="100%"
+                borderTopWidth={1}
+                borderStyle={"solid"}
                 bg={useColorModeValue("white", "gray.800")}
                 px={4}
             >
                 <Flex
-                    bg={useColorModeValue("white", "gray.800")}
+                    bg={useColorModeValue("blue.50", "gray.800")}
                     color={useColorModeValue("gray.600", "white")}
                     minH={"60px"}
                     py={{ base: 2 }}
@@ -48,10 +47,8 @@ const MainLayout = ({ children }) => {
                             spacing={4}
                             display={{ base: "none", md: "flex" }}
                         >
-                            <Link href="/">KSF</Link>
-                            <Link href="/">Projects</Link>
-                            <Link href="/">Skills</Link>
-
+                            <Link href="/projects">Projects</Link>
+                            <Link href="/skills">Skills</Link>
                         </HStack>
                     </HStack>
                 </Flex>
