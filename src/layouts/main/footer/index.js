@@ -1,4 +1,5 @@
-import { Box, Container, Stack, Text, Link, useColorModeValue, Center } from "@chakra-ui/react";
+import { Box, Container, Stack, Text, Link, useColorModeValue, Center, ButtonGroup, IconButton} from "@chakra-ui/react";
+import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -20,9 +21,26 @@ const Footer = () => {
           justify={{ base: "center", md: "space-between" }}
           align={{ base: "center", md: "center" }}
         >
-          <Text>
-            {new Date().getFullYear()} Kenat Flores
-          </Text>
+          <Stack
+            pt="8"
+            pb="12"
+            justify="space-between"
+            direction={{ base: 'column-reverse', md: 'row' }}
+            align="center"
+          >
+            <Text fontSize="sm" color="subtle">
+              &copy; {new Date().getFullYear()} Kenat S. Flores
+            </Text>
+            <ButtonGroup variant="ghost">
+              <IconButton
+                as="a"
+                href="https://www.linkedin.com/in/kenatsf/"
+                aria-label="LinkedIn"
+                icon={<FaLinkedin fontSize="1.25rem" />}
+              />
+              <IconButton as="a" href="https://github.com/KenatSF" aria-label="GitHub" icon={<FaGithub fontSize="1.25rem" />} />
+            </ButtonGroup>
+          </Stack>
 
         </Container>
       </Box>
