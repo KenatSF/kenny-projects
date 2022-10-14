@@ -1,7 +1,7 @@
-import { Box, useColorModeValue, Heading, Stack, Image, Text } from "@chakra-ui/react";
+import { Box, useColorModeValue, Heading, Stack, Image, Text, Link, Button } from "@chakra-ui/react";
 
 
-const Projectinfo = ({ titulillo, image }) => {
+const Projectinfo = ({ titulillo, image, linkTo, samePage }) => {
   return (
     <Box
       role={"group"}
@@ -37,16 +37,27 @@ const Projectinfo = ({ titulillo, image }) => {
         }}
       >
         <Image
-          rounded={"lg"}
-          height={230}
-          width={282}
-          objectFit={"cover"}
-          src={image}
-        />
+            rounded={"lg"}
+            height={230}
+            width={282}
+            objectFit={"cover"}
+            src={image}
+          />
+
       </Box>
       <Stack pt={10} align={"center"}>
         <Heading fontSize={"xl"} fontFamily={"body"} fontWeight={500}>
-          {titulillo}
+
+          <Button onClick={(e) => {
+            e.preventDefault();
+            if (!samePage) {
+              window.open([linkTo]);
+            } else {
+              window.open([linkTo], "_self");
+            }
+          }}>
+            {titulillo}
+          </Button>
         </Heading>
       </Stack>
     </Box>

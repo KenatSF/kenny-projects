@@ -1,8 +1,8 @@
 import { Flex, Text, Box, TableContainer, Table, TableCaption, Thead, Tbody, Tr, Td, Th, Tfoot, TabPanels, Tab, TabList, Tabs, TabPanel, Link } from "@chakra-ui/react";
 import React from "react";
 
-import Saludos from "../components/Saludos";
-import Projectsgrid from "../components/projectsgrid";
+import Datagrid from "../components/datagrid";
+import Web3grid from "../components/web3grid";
 
 export default function Projects() {
 
@@ -16,10 +16,10 @@ export default function Projects() {
                     </TabList>
                     <TabPanels>
                         <TabPanel>
-                            <Projectsgrid />
+                            <Datagrid />
                         </TabPanel>
                         <TabPanel>
-                        <Link href="/centrality">Indexes</Link>
+                            <Web3grid />
                         </TabPanel>
                     </TabPanels>
                 </Tabs>
