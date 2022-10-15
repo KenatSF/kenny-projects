@@ -326,6 +326,9 @@ export default function Electricity() {
                     Database 3: Global Power-Plants
                 </Text>
             </Link>
+            <br />
+            <br />
+            <br />
         </Box>
 
     )
