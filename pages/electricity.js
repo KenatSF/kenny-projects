@@ -4,18 +4,32 @@ import { Flex, Text, Stack, Box, Center, Image, Link, Button } from "@chakra-ui/
 export default function Electricity() {
     return (
         <Box>
-            <Text as='sub'>Fecha: 14/10/2022</Text>
+            <Text as='sub'>Fecha: 15/10/2022</Text>
             <br />
             <Center h='80px' color='blackAlpha.700'>
                 <Text fontSize='45px' as='b'>Plantas eléctricas </Text>
             </Center>
             <br />
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]}>
+            <Text fontSize='xl' noOfLines={[1, 2, 3, 4]}>
                 Existen varias formas de generar electricidad, algunos ejemplos son: energía solar, hidráulica, gas, nuclear, petróleo, etc.
-                Buscamos encontrar aquellas empresas que puedan tener potencial de crecer en los próximos años y que puedan revolucionar, tal vez,
-                su propia industria en búsqueda de un mayor crecimiento. Esta búsqueda se va a realizar analizando tres bases de datos que ayuden
+                Buscamos encontrar aquellas empresas que puedan tener potencial de crecer en los próximos años y que tal vez puedan revolucionar
+                su propia industria. Esta búsqueda se va a realizar analizando tres bases de datos que ayuden
                 a vislumbrar el panorama de la generación de esta energía y ver hacia donde se dirige.
+            </Text>
+            <Text fontSize='xl' noOfLines={[1, 2, 3, 4]}>
+                En la primer parte vamos a empezar a filtrar por países, buscando los más innovadores. Dado el potencial a futuro que esto pueda traer.
+            </Text>
+            <Text fontSize='xl' noOfLines={[1, 2, 3, 4]}>
+                En la segunda parte se va a decidir que tipo de planta energética se va a tomar en cuenta con base en los datos.
+            </Text>
+            <Text fontSize='xl' noOfLines={[1, 2, 3, 4]}>
+                En la tercer parte eligiremos que variables a tomar en cuenta para elegir las &quot;mejores&quot; plantas eléctricas añadiendo la información encontrada
+                en las partes 1 y 2.
+            </Text>
+            <br />
+            <Text fontSize='2xl' noOfLines={[1]} as='b'>
+                Parte 1:
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]}>
@@ -28,7 +42,7 @@ export default function Electricity() {
             <br />
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]}>
-                Primero, sacamos la correlación entre todas las variables y de ahí se obtuvo la “correlación media” entre estas.
+                Primero, sacamos la correlación entre todas las variables y de ahí se obtuvo la &quot;correlación media&quot; entre estas.
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]}>
@@ -53,7 +67,7 @@ export default function Electricity() {
                 Índice que mide el nivel de sofisticación de las industrias de un país.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]}>
+            <Text fontSize='xl' noOfLines={[1, 2, 3, 4, 5]}>
                 Tiene sentido que estas variables sean las que, en promedio, sean las que estén más correlacionadas con las otras variables de la base. Esto debido a que usualmente
                 se conoce que un país es o no &quot;desarrollado&quot; en función de las industrias y sus respectivos modelos de negocios. Por ejemplo, la variable de (Infrastructures), la cual
                 mide que tanto dinero se invierte en infraestructura pública en cierto país. Lo que hace suponer que, si existe un gasto alto en esto, permitiría a las respectivas
@@ -61,13 +75,13 @@ export default function Electricity() {
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]}>
-                A continuación, teniendo en cuenta estas dos variables, se realizó una intersección de la segunda mitad superior del 4° percentil en ambas variables para obtener a los
+                A continuación, teniendo en cuenta estas dos variables, se realizó una intersección de la segunda mitad superior del 4° percentile en ambas variables para obtener a los
                 países candidatos a ser considerados como los más avanzados en términos de generación de energía eléctrica o, en otras palabras, simplemente los países más
                 &quot;avanzados&quot;.
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]}>
-                Con lo que se obtuvo que los países más innovadores y con mayor nivel de sofisticación son:
+                Se obtuvo que los países más innovadores y con mayor nivel de sofisticación son:
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3, 4, 5]} as='b'>
@@ -81,8 +95,8 @@ export default function Electricity() {
             </Text>
             <br />
             <Text fontSize='xl'>
-                Para lograr un contraste, se obtuvo también a aquellos países que se encontraban en la segunda mitad superior del 4° percentil, pero de la variable (pollution), es decir, se obtuvo a los
-                países más contaminantes para la generación de energía eléctrica.
+                Para lograr un contraste, se obtuvo también a aquellos países que se encontraban en la segunda mitad superior del 4° percentile, pero de la variable (pollution), es decir, se obtuvo a los
+                países más contaminantes en la de energía eléctrica.
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3, 4]}>
@@ -109,6 +123,10 @@ export default function Electricity() {
                 también hacía el pasado y así poder vislumbrar la tendencia de la generación de energía en los próximos años.
             </Text>
             <br />
+            <br />
+            <Text fontSize='2xl' noOfLines={[1]} as='b'>
+                Parte 2:
+            </Text>
             <Text fontSize='xl' noOfLines={[1, 2, 3]}>
                 Gracias a la base de datos (db2) podemos notar el gran desarrollo que ha experimentado la humanidad durante el último siglo.
             </Text>
@@ -140,14 +158,18 @@ export default function Electricity() {
             <br />
             <br />
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]}>
-                Con lo anterior podemos suponer que el incremento en el uso energético, y de nuestro interés la demanda de electricidad no va a hacer otra cosa más que incrementarse.
+            <Text fontSize='xl' noOfLines={[1, 2, 3, 4]}>
+                Con lo anterior podemos suponer que el incremento del uso energía, y de nuestro interés la demanda de electricidad no va a hacer otra cosa más que incrementarse.
                 Por lo que invertir en empresas que se dediquen a la generación de esta, es y seguirá siendo rentable por muchos años más. Lo cual hay que recalcar que es más que obvio,
                 dada la importancia de la generación de energía para el desarrollo de la humanidad.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]}>
                 Nota: Los gráficos no son del todo precisos, dada la falta de datos de la base (db2): países, años, cifras, etc.
+            </Text>
+            <br />
+            <Text fontSize='2xl' noOfLines={[1]} as='b'>
+                Parte 3:
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]}>
@@ -161,7 +183,7 @@ export default function Electricity() {
             <br />
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]}>
-                Aquí podemos ver, por ejemplo, aunque existen una gran cantidad de plantas cuya generación de energía depende principalmente de energía solar. Esta manera de generar
+                Aquí podemos ver, por ejemplo: Aunque existen una gran cantidad de plantas cuya generación de energía depende principalmente de energía solar. Esta manera de generar
                 electricidad apenas alcanza una capacidad media de 17.66 MW. Mientras que, si lo comparamos con el petróleo, cuya cantidad de plantas es muy inferior a la solar,
                 se alcanza una capacidad media de 112.88 MW.
             </Text>
@@ -248,16 +270,16 @@ export default function Electricity() {
                 La razón de dejar atrás a los países más contaminantes es porque su propósito era solo el de contrastar las distintas fuentes de energía eléctrica.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]}>
+            <Text fontSize='xl' noOfLines={[1, 2, 3, 4]}>
                 También vamos a dejar de lado a Rusia, debido a las sanciones que ha sufrido con la guerra y su aislamiento del mercado “occidental”. Por su parte, China ha
                 experimentado algo similar, pero no tanto por sanciones sino por su propia política económica. Por ejemplo, la salida de varias empresas de la bolsa de valores de
                 Nueva York. Dadas las razones anteriores podría existir un mayor riesgo de invertir en empresas de estos países.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]}>
+            <Text fontSize='xl' noOfLines={[1, 2, 3, 4]}>
                 Finalmente, se realizó una limpieza de datos en la variable (owner of plant) puesto que esta variable contenía muchos datos faltantes. Hay que notar que la variable
                 que se utilizó para filtrar las distintas plantas fue (capacity in MW). Esto se hizo de esta manera, ya que nos indica la capacidad máxima que es capaz de generar la
-                planta eléctrica. Por lo que, se tomaron en cuenta aquellas plantas que se encontraban en el 4° percentil, es decir, las de mayor capacidad.
+                planta eléctrica. Por lo que, se tomaron en cuenta aquellas plantas que se encontraban en el 4° percentile, es decir, las de mayor capacidad.
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]}>
@@ -265,7 +287,7 @@ export default function Electricity() {
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]}>
-                Las empresas resultantes, son:
+                Por último, las empresas obtenidas, son:
             </Text>
             <Image src="./projects/electricity/companies.png" alt='companies' width="600" height="700" />
             <br />
