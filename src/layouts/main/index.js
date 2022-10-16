@@ -39,7 +39,7 @@ const MainLayout = ({ children }) => {
                     <HStack spacing={8} alignItems={"center"}>
                         <Flex alignItems="center">
                             <Link href="/">
-                                <Image src="./klogo.jpg" width="80px" />
+                                <Image src="./favicon.ico" width="80px" />
                             </Link>
                         </Flex>
                         <HStack
