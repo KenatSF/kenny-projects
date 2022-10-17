@@ -7,7 +7,7 @@ export default function Skills() {
     return (
         <Box>
             <Center>
-                <Text fontSize='45px' as='b' color='blackAlpha.700'>Skills</Text>
+                <Text fontSize={{ base: '24px', md: '30px', lg: '45px' }}  as='b' color='blackAlpha.700'>Skills</Text>
             </Center>
             <Center>
                 <Box boxSize='xs'>

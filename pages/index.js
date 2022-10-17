@@ -19,7 +19,7 @@ export default function Home() {
         px={4}
       >
 
-        <Text fontSize={{ base: '24px', md: '40px', lg: '3xl' }} noOfLines={[1]} as='b'>
+        <Text fontSize={{ base: '12px', md: '40px', lg: '3xl' }} noOfLines={[1]} as='b'>
           Hi, Welcome to my website!
         </Text>
         <br />
@@ -75,7 +75,7 @@ export default function Home() {
               <Tr>
                 <Td><FaRegEnvelope fontSize="1.5rem" /></Td>
                 <Td>
-                  <Text fontSize={{ base: '20px', md: '24px', lg: '28px' }}  >
+                  <Text fontSize={{ base: '14px', md: '24px', lg: '28px' }}  >
                     main.ksfg@gmail.com
                   </Text>
                 </Td>
