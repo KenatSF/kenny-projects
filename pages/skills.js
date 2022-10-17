@@ -3,7 +3,7 @@ import React from "react";
 
 
 export default function Skills() {
-
+    
     return (
         <Box>
             <Center>
@@ -39,6 +39,10 @@ export default function Skills() {
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Statsmodels
+            </Text>
+            <br />
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Networkx
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
@@ -119,6 +123,10 @@ export default function Skills() {
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Survival Analysis.
+            </Text>
+            <br />
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Network Theory.
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
