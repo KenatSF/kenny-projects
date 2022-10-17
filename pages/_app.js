@@ -1,15 +1,16 @@
 import '../styles/globals.css'
 
-import { ChakraProvider } from "@chakra-ui/react";
-import MainLayout from '../src/layouts/main';
+import { ChakraProvider } from "@chakra-ui/react"
+import { DarkModeSwitch } from '../components/nav-link'
 
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
-      <MainLayout>
-        <Component {...pageProps} />
-      </MainLayout>
+      <DarkModeSwitch>
+        < Component {...pageProps} />
+      </DarkModeSwitch>
     </ChakraProvider>
+
   )
 }
 
