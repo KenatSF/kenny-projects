@@ -12,6 +12,7 @@ export default function Datagrid() {
                 <Projectinfo titulillo={"Stock Indices"} image={"./datascience/stockindices.jpg"} linkTo={"https://github.com/KenatSF/Heavy-Indexes"} samePage={false} />
                 <Projectinfo titulillo={"Market sales"} image={"./datascience/market.jpg"} linkTo={"https://github.com/KenatSF/Basic_Data_Analysis"} samePage={false} />
                 <Projectinfo titulillo={"Bitcoin crash prediction"} image={"./datascience/bitcoin.jpg"} linkTo={"https://github.com/KenatSF/Bitcoin-fall-prediction"} samePage={false} />
+                <Projectinfo titulillo={"Natural Language Processing"} image={"./datascience/nlp.jpg"} linkTo={"https://github.com/KenatSF/WallStreetBets_Watcher"} samePage={false} />
             </Grid>
         </Box>
 

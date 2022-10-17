@@ -46,6 +46,10 @@ export default function Skills() {
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Nltk
+            </Text>
+            <br />
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Matplotlib
             </Text>
             <br />
