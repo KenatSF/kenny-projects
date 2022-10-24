@@ -81,7 +81,7 @@ export const DarkModeSwitch = ({ children }) => {
             <Flex
                 w='100vw'
                 display={display}
-                bgColor="gray.50"
+                bgColor="gray.500"
                 zIndex={20}
                 h="100vh"
                 pos="fixed"

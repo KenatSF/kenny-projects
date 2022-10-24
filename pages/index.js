@@ -29,6 +29,10 @@ export default function Home() {
         <br />
         <br />
         <br />
+        <br />
+        <br />
+        <br />
+
 
         <Center h='80px' color='blackAlpha.700'>
           <Image src="./myself.jpg" alt='my self' width="200px" />
@@ -50,10 +54,6 @@ export default function Home() {
           classified, and co-ordinated with the rest, then the mission of science will be completed.&quot;
         </Text>
         <Text fontSize={{ base: '20px', md: '30px', lg: '35px' }} noOfLines={{ base: [1], md: [1,2,], lg: [1, 2, 3, 4] }}>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           - Karl Pearson
         </Text>
         <br />
