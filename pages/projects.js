@@ -7,7 +7,7 @@ import Web3grid from "../components/web3grid";
 export default function Projects() {
 
     return (
-        <Box flex="1" bg="white" px={{ base: '25', md: '100', lg: '400' }} py="20">
+        <Box flex="1" px={{ base: '25', md: '100', lg: '400' }} py="20">
                 <Tabs size="lg" colorScheme="white" align={{ base: 'end', md: 'center', lg: 'center' }} variant="enclosed">
                     <TabList>
                         <Tab fontWeight="bold">Data science</Tab>

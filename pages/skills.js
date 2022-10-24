@@ -7,7 +7,7 @@ export default function Skills() {
     return (
         <Box>
             <Center>
-                <Text fontSize={{ base: '24px', md: '30px', lg: '45px' }}  as='b' color='blackAlpha.700'>Skills</Text>
+                <Text fontSize={{ base: '24px', md: '30px', lg: '45px' }}  >Skills</Text>
             </Center>
             <Center>
                 <Box boxSize='xs'>
@@ -21,51 +21,51 @@ export default function Skills() {
                 Data science Packages:
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Pandas
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Numpy
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Scikit-Learn
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Keras
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Statsmodels
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Networkx
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Nltk
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Matplotlib
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Seaborn
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - tseries
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - survival
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - ggplot2
             </Text>
             <br />
@@ -73,19 +73,19 @@ export default function Skills() {
                 Programming Languages:
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Python.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - R.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Javascript.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Solidity.
             </Text>
             <br />
@@ -93,7 +93,7 @@ export default function Skills() {
                 Database:
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - SQL.
             </Text>
             <br />
@@ -101,7 +101,7 @@ export default function Skills() {
                 Frameworks:
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Next.js.
             </Text>
             <br />
@@ -109,31 +109,31 @@ export default function Skills() {
                 Knowledge:
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Probability.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Statistics.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Generalized Linear Models.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Time Series.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Survival Analysis.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Network Theory.
             </Text>
             <br />
-            <Text fontSize='xl' noOfLines={[1, 2, 3]} as='b' color='blackAlpha.600'>
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Deep Learning.
             </Text>
             <br />

@@ -6,7 +6,7 @@ export default function Electricity() {
         <Box>
             <Text as='sub'>Fecha: 15/10/2022</Text>
             <br />
-            <Center h='80px' color='blackAlpha.700'>
+            <Center h='80px'>
                 <Text fontSize={{ base: '24px', md: '30px', lg: '45px' }} as='b'>Plantas eléctricas </Text>
                 
             </Center>
