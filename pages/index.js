@@ -32,7 +32,7 @@ export default function Home() {
         </Center>
         <br />
         <br />
-        <Center h='80px' color='blackAlpha.700'>
+        <Center h='80px'>
           <Text fontSize={{ base: '24px', md: '40px', lg: '45px' }}  as='b'>Kenat S. Flores </Text>
         </Center>
         <br />
