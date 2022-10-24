@@ -1,8 +1,11 @@
+
+
+
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import {
   Box, Container, Stack, Text, Link, useColorModeValue, Flex, IconButton,
-  TableContainer, Table, TableCaption, Thead, Tr, Th, Tbody, Td, Tfoot, Center, Image
+  TableContainer, Table, TableCaption, Thead, Tr, Th, Tbody, Td, Tfoot, Center, Image, ColorModeScript
 } from "@chakra-ui/react";
 import { FaGithub, FaRegEnvelope, FaMapMarkerAlt } from 'react-icons/fa';
 
@@ -32,6 +35,8 @@ export default function Home() {
         </Center>
         <br />
         <br />
+        <br />
+        <br />
         <Center h='80px'>
           <Text fontSize={{ base: '24px', md: '40px', lg: '45px' }}  as='b'>Kenat S. Flores </Text>
         </Center>
@@ -39,10 +44,6 @@ export default function Home() {
         <br />
         <br />
         <br />
-        <br />
-        <Text fontSize={{ base: '24px', md: '40px', lg: '45px' }} as='b'>
-            An outstanding quote:
-        </Text>
         <br />
         <Text fontSize={{ base: '24px', md: '40px', lg: '45px' }} >
           &quot;When every fact, every present or past phenomenon of that universe, every phase of present or past life therein, has been examined,
@@ -116,3 +117,8 @@ export default function Home() {
     </Flex>
   )
 }
+
+
+
+
+

@@ -98,6 +98,18 @@ export default function Skills() {
             </Text>
             <br />
             <Text fontSize='2xl' noOfLines={[1]} as='b'>
+                Data visualization
+            </Text>
+            <br />
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Power BI.
+            </Text>
+            <br />
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Tableau.
+            </Text>
+            <br />
+            <Text fontSize='2xl' noOfLines={[1]} as='b'>
                 Frameworks:
             </Text>
             <br />
@@ -131,6 +143,10 @@ export default function Skills() {
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]} >
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Network Theory.
+            </Text>
+            <br />
+            <Text fontSize='xl' noOfLines={[1, 2, 3]} >
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Machine Learning.
             </Text>
             <br />
             <Text fontSize='xl' noOfLines={[1, 2, 3]} >
