@@ -158,9 +158,6 @@ export default function Skills() {
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Probability.
                         </Text></MenuItem>
                         <MenuItem><Text fontSize='xl' noOfLines={[1, 2, 3]} >
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Numpy
-                        </Text></MenuItem>
-                        <MenuItem><Text fontSize='xl' noOfLines={[1, 2, 3]} >
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Statistics.
                         </Text></MenuItem>
                         <MenuItem><Text fontSize='xl' noOfLines={[1, 2, 3]} >
@@ -181,7 +178,6 @@ export default function Skills() {
                         <MenuItem><Text fontSize='xl' noOfLines={[1, 2, 3]} >
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Deep Learning.
                         </Text></MenuItem>
-
                     </MenuList>
                 </Portal>
             </Menu>
