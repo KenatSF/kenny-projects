@@ -1,8 +1,8 @@
 
 import { VStack } from "@chakra-ui/layout";
 import Header from "../components/header";
-import Profile from "../components/Profile";
-import Social from "../components/Social";
+import Profile from "../components/profile";
+import Social from "../components/social";
 
 export default function Home() {
   return (
