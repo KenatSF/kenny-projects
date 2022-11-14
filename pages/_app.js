@@ -1,16 +1,16 @@
 import '../styles/globals.css'
 
 import { ChakraProvider } from "@chakra-ui/react"
-import { DarkModeSwitch } from '../components/nav-link'
 import { Analytics } from '@vercel/analytics/react';
+import { Navbar } from '../components/navbar';
 
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
-      <DarkModeSwitch>
+      <Navbar>
         < Component {...pageProps} />
         <Analytics />
-      </DarkModeSwitch>
+      </Navbar>
     </ChakraProvider>
 
   )
