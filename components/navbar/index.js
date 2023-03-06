@@ -5,11 +5,12 @@ import NextLink from 'next/link'
 import Footer from '../footer'
 import Languages from '../languages'
 import { useRouter } from 'next/router'
+import { MoonIcon, SunIcon } from '@chakra-ui/icons';
+
 
 export const Navbar = ({ children, props }) => {
-    const { colorMode, toggleColorMode } = useColorMode()
-    const isDark = colorMode === 'dark'
-    const [display, changeDisplay] = useState('none')
+    const { colorMode, toggleColorMode } = useColorMode('dark');
+    const [display, changeDisplay] = useState('none');
     const router = useRouter();
 
     const { web } = props;
@@ -73,6 +74,12 @@ export const Navbar = ({ children, props }) => {
                     display={['none', 'none', 'flex', 'flex']}>
                     <Languages />
                 </Flex>
+                <Flex
+                    display={['none', 'none', 'flex', 'flex']}>
+                    <IconButton mt={0} aria-label="Toggle Mode" onClick={toggleColorMode}>
+                        {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+                    </IconButton>
+                </Flex>
 
 
                 {/* The next IconButton is the HamburgerIcon when the view is from a mobile. */}
@@ -88,12 +95,7 @@ export const Navbar = ({ children, props }) => {
                 />
 
 
-                {/* The next Switch is the button to change to dark mode. In both cases. */}
-                <Switch
-                    color="green"
-                    isChecked={isDark}
-                    onChange={toggleColorMode}
-                />
+
             </Flex>
 
             {/* Mobile */}
@@ -164,6 +166,14 @@ export const Navbar = ({ children, props }) => {
                     align="center"
                 >
                     <Languages />
+                </Flex>
+                <Flex
+                    flexDir="column"
+                    align="center"
+                    >
+                    <IconButton mt={10} aria-label="Toggle Mode" onClick={toggleColorMode}>
+                        {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+                    </IconButton>
                 </Flex>
             </Flex>
             <Box mx="auto" flex={1} p={4} maxW={"7xl"} width="100%">

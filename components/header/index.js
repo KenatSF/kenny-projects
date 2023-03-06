@@ -1,16 +1,9 @@
-import { Input, useClipboard } from "@chakra-ui/react";
-import { Button } from '@chakra-ui/button';
 import { Image } from '@chakra-ui/image';
-import { Stack, Circle, Flex, Box, Text, Spacer, HStack } from '@chakra-ui/layout';
+import { Flex, Box, Text, Spacer, HStack } from '@chakra-ui/layout';
 import { useMediaQuery } from '@chakra-ui/media-query';
-import { useState } from "react";
 import React from 'react'
 
 function Header({ myInfo }) {
-    const [mail, setMail] = useState('main.ksfg@gmail.com')
-    const { hasCopied, onCopy } = useClipboard(mail)
-
-
     const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
 
     return (
