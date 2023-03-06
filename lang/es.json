@@ -1,0 +1,52 @@
+{
+    "web": {
+        "home": "Inicio",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "mySelfInfo": "Ciencia de Datos - Script de automatización de tareas - Blockchain",
+        "info": "Info",
+        "infoProjects": "Data Science & Blockchain",
+        "infoSkills": "Skills",
+        "textoKarl": "Cuando cada hecho, cada fenómeno presente o pasado de ese universo, cada fase de la vida presente o pasada en él, haya sido examinada, clasificada y coordinada con el resto, entonces la misión de la ciencia estará completada.",
+        "tittleProjects": "Proyectos",
+        "dataScience": "Ciencia de datos",
+        "blockchain": "BlockChain",
+        "tittleSkills": "Habilidades",
+        "dataSciencePackages": "Paguetes de ciencia de datos",
+        "programmingLanguages": "Lenguages de programación",
+        "dataBase": "Bases de datos",
+        "dataVisualization": "Visualización de datos",
+        "frameworks": "Frameworks",
+        "knowledge": "Conocimiento",
+        "probability": "Probabilidad",
+        "statistics": "Estadística",
+        "generalized": "Modelos Líneales Generalizados",
+        "timeSeries": "Series de Tiempo",
+        "survival": "Analísis de Supervivencia",
+        "network": "Teoría de Redes",
+        "deep": "Aprendizaje Profundo"
+    },
+
+    "projects": {
+        "homeNavBar": "Inicio",
+        "projectsNavBar": "Proyectos",
+        "skillsNavBar": "Habilidades"
+    },
+
+    "skills" :{
+        "tittle": "Habilidades",
+        "dataSciencePackages": "Paguetes de ciencia de datos",
+        "programmingLanguages": "Lenguages de programación",
+        "dataBase": "Bases de datos",
+        "dataVisualization": "Visualización de datos",
+        "frameworks": "Frameworks",
+        "knowledge": "Conocimiento",
+        "probability": "Probabilidad",
+        "statistics": "Estadística",
+        "generalized": "Modelos Líneales Generalizados",
+        "timeSeries": "Series de Tiempo",
+        "survival": "Analísis de Supervivencia",
+        "network": "Teoría de Redes",
+        "deep": "Aprendizaje Profundo"
+    }
+}

@@ -5,10 +5,11 @@ import { Analytics } from '@vercel/analytics/react';
 import { Navbar } from '../components/navbar';
 
 function MyApp({ Component, pageProps }) {
+  console.log(pageProps);
   return (
     <ChakraProvider>
-      <Navbar>
-        < Component {...pageProps} />
+      <Navbar props={pageProps}>
+        <Component {...pageProps} />
         <Analytics />
       </Navbar>
     </ChakraProvider>

@@ -4,12 +4,13 @@ import React from "react";
 import Datagrid from "../components/datagrid";
 import Web3grid from "../components/web3grid";
 
-export default function Projects() {
+export default function Projects(props) {
+    const { web } = props;
 
     return (
         <Box flex="1" px={{ base: '25', md: '100', lg: '400' }} py="20">
             <Center>
-                <Text fontSize={{ base: '24px', md: '30px', lg: '45px' }}  >Projects</Text>
+                <Text fontSize={{ base: '24px', md: '30px', lg: '45px' }}  >{web.tittleProjects}</Text>
             </Center>
             <Center>
                 <Box boxSize='xs'>
@@ -19,8 +20,8 @@ export default function Projects() {
             <br />
             <Tabs size="lg" colorScheme="white" align={{ base: 'end', md: 'center', lg: 'center' }} variant="enclosed">
                 <TabList>
-                    <Tab fontWeight="bold">Data science</Tab>
-                    <Tab fontWeight="bold">Web 3.0</Tab>
+                    <Tab fontWeight="bold">{web.dataScience}</Tab>
+                    <Tab fontWeight="bold">{web.blockchain}</Tab>
                 </TabList>
                 <TabPanels>
                     <TabPanel>
@@ -35,3 +36,13 @@ export default function Projects() {
 
     )
 }
+
+export async function getStaticProps({ locale }) {
+    const response = await import(`../lang/${locale}.json`)
+  
+    return {
+        props: {
+          web: response.default.web,
+        },
+    };
+  }

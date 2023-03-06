@@ -4,7 +4,9 @@ import Header from "../components/header";
 import Profile from "../components/profile";
 import Social from "../components/social";
 
-export default function Home() {
+export default function Home(props) {
+  const { web } = props;
+  console.log(web);
   return (
     <VStack p={5}>
       <Header></Header>
@@ -14,7 +16,15 @@ export default function Home() {
   );
 }
 
+export async function getStaticProps({ locale }) {
+  const response = await import(`../lang/${locale}.json`)
 
+  return {
+      props: {
+        web: response.default.web,
+      },
+  };
+}
 
 
 

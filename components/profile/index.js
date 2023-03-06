@@ -16,8 +16,7 @@ function Profile() {
             maxWidth={{ base: "100vh", md: "130vh", lg: "130vh", xl: "130vh" }}>
             <Box alignSelf="center" px="32" py="16">
                 <Text fontSize={{ base: '24px', md: '24px', lg: '32px' }} color="gray.400">
-                    &quot;When every fact, every present or past phenomenon of that universe, every phase of present or past life therein, has been examined,
-                    classified, and co-ordinated with the rest, then the mission of science will be completed.&quot;
+                    &quot;Texto karl&quot;
                 </Text>
                 <Heading fontWeight="extrabold" color="blue.500" size="2xl">
                     - Karl Pearson

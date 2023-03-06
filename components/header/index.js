@@ -21,9 +21,8 @@ function Header() {
                 spacing="200px" p={isNotSmallerScreen ? "32" : "0"}
                 alignSelf="flex-start">
                 <Box mt={isNotSmallerScreen ? "0" : 16} align='flex-start'>
-                    <Text fontSize="5xl" fontWeight="semibold">;) Hi, I am</Text>
                     <Text fontSize="7xl" fontWeight="bold" bgGradient="linear(to-r, cyan.400, blue.500, gray.600)" bgClip='text' >Kenat S. Flores</Text>
-                    <Text>Software developer - Data scientist</Text>
+                    <Text>Data Scientist</Text>
                     <Flex mb={2}>
                         <Input value={mail} isReadOnly />
                         <Button onClick={onCopy} ml={2}>

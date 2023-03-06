@@ -4,12 +4,28 @@ import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import NextLink from 'next/link'
 import Footer from '../footer'
 import Languages from '../languages'
+import { useRouter } from 'next/router'
 
-
-export const Navbar = ({ children }) => {
+export const Navbar = ({ children, props }) => {
     const { colorMode, toggleColorMode } = useColorMode()
     const isDark = colorMode === 'dark'
     const [display, changeDisplay] = useState('none')
+    const router = useRouter();
+
+    const { web } = props;
+    console.log(web);
+
+    async function myHome() {
+        router.push("/");
+    }
+    async function myProjects() {
+        router.push("/projects");
+    }
+    async function mySkills() {
+        router.push("/skills");
+    }
+
+
     return (
         <Flex>
             <Flex
@@ -22,47 +38,42 @@ export const Navbar = ({ children }) => {
                 <Flex
                     display={['none', 'none', 'flex', 'flex']}
                 >
-                    <NextLink href="/" passHref>
-                            <Button
-                                as="a"
-                                variant="ghost"
-                                aria-label="Home"
-                                my={5}
-                                w="100%"
-                            >
-                                Home
-                            </Button>
-                        </NextLink>
-
-                        <NextLink href="/projects" passHref>
-                            <Button
-                                as="a"
-                                variant="ghost"
-                                aria-label="Projects"
-                                my={5}
-                                w="100%"
-                            >
-                                Projects
-                            </Button>
-                        </NextLink>
-
-                        <NextLink href="/skills" passHref>
-                            <Button
-                                as="a"
-                                variant="ghost"
-                                aria-label="Skills"
-                                my={5}
-                                w="100%"
-                            >
-                                Skills
-                            </Button>
-                        </NextLink>
+                    <Button
+                        onClick={myHome}
+                        as="a"
+                        variant="ghost"
+                        aria-label="Home"
+                        my={5}
+                        w="100%"
+                    >
+                        {web.home}
+                    </Button>
+                    <Button
+                        onClick={myProjects}
+                        as="a"
+                        variant="ghost"
+                        aria-label="Projects"
+                        my={5}
+                        w="100%"
+                    >
+                        {web.projects}
+                    </Button>
+                    <Button
+                        onClick={mySkills}
+                        as="a"
+                        variant="ghost"
+                        aria-label="Skills"
+                        my={5}
+                        w="100%"
+                    >
+                        {web.skills}
+                    </Button>
                 </Flex>
                 <Flex
                     display={['none', 'none', 'flex', 'flex']}>
                     <Languages />
                 </Flex>
-                
+
 
                 {/* The next IconButton is the HamburgerIcon when the view is from a mobile. */}
                 <IconButton
@@ -117,43 +128,43 @@ export const Navbar = ({ children }) => {
                     flexDir="column"
                     align="center"
                 >
-                    <NextLink href="/" passHref>
-                        <Button
-                            as="a"
-                            variant="ghost"
-                            aria-label="Home"
-                            my={5}
-                            w="100%"
-                        >
-                            Home
-                        </Button>
-                    </NextLink>
-
-                    <NextLink href="/projects" passHref>
-                        <Button
-                            as="a"
-                            variant="ghost"
-                            aria-label="Projects"
-                            my={5}
-                            w="100%"
-                        >
-                            Projects
-                        </Button>
-                    </NextLink>
-
-                    <NextLink href="/skills" passHref>
-                        <Button
-                            as="a"
-                            variant="ghost"
-                            aria-label="Skills"
-                            my={5}
-                            w="100%"
-                        >
-                            Skills
-                        </Button>
-                    </NextLink>
+                    <Button
+                        onClick={myHome}
+                        as="a"
+                        variant="ghost"
+                        aria-label="Home"
+                        my={5}
+                        w="100%"
+                    >
+                        {web.home}
+                    </Button>
+                    <Button
+                        onClick={myProjects}
+                        as="a"
+                        variant="ghost"
+                        aria-label="Projects"
+                        my={5}
+                        w="100%"
+                    >
+                        {web.projects}
+                    </Button>
+                    <Button
+                        onClick={mySkills}
+                        as="a"
+                        variant="ghost"
+                        aria-label="Skills"
+                        my={5}
+                        w="100%"
+                    >
+                        {web.skills}
+                    </Button>
                 </Flex>
-                <Languages />
+                <Flex
+                    flexDir="column"
+                    align="center"
+                >
+                    <Languages />
+                </Flex>
             </Flex>
             <Box mx="auto" flex={1} p={4} maxW={"7xl"} width="100%">
                 {children}
@@ -165,3 +176,4 @@ export const Navbar = ({ children }) => {
         </Flex>
     )
 }
+

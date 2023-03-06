@@ -1,0 +1,52 @@
+{
+    "web": {
+        "home": "Home",
+        "projects": "Projects",
+        "skills": "Skills",
+        "mySelfInfo": "Data Science - Automatization scripts - Blockchain",
+        "info": "Info",
+        "infoProjects": "Data Science & Blockchain",
+        "infoSkills": "Skills",
+        "textoKarl": "When every fact, every present or past phenomenon of that universe, every phase of present or past life therein, has been examined, classified, and co-ordinated with the rest, then the mission of science will be completed.",
+        "tittleProjects": "Projects",
+        "dataScience": "Data Science",
+        "blockchain": "BlockChain",
+        "tittleSkills": "Skills",
+        "dataSciencePackages": "Data Science Packages",
+        "programmingLanguages": "Programming Languages",
+        "dataBase": "Data Base",
+        "dataVisualization": "Data dataVisualization",
+        "frameworks": "Frameworks",
+        "knowledge": "Knowledge",
+        "probability": "Probability",
+        "statistics": "Statistics",
+        "generalized": "Generalized Linear Models",
+        "timeSeries": "Time Series",
+        "survival": "Survaval Analysis",
+        "network": "Network Theory",
+        "deep": "Deep Learning"
+    },
+
+    "projects": {
+        "homeNavBar": "Home",
+        "projectsNavBar": "Projects",
+        "skillsNavBar": "Skills"   
+    },
+
+    "skills" :{
+        "tittle": "Skills",
+        "dataSciencePackages": "Data Science Packages",
+        "programmingLanguages": "Programming Languages",
+        "dataBase": "Data Base",
+        "dataVisualization": "Data dataVisualization",
+        "frameworks": "Frameworks",
+        "knowledge": "Knowledge",
+        "probability": "Probability",
+        "statistics": "Statistics",
+        "generalized": "Generalized Linear Models",
+        "timeSeries": "Time Series",
+        "survival": "Survaval Analysis",
+        "network": "Network Theory",
+        "deep": "Deep Learning"
+    }
+}
