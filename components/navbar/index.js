@@ -58,7 +58,7 @@ export const Navbar = ({ children }) => {
                     </NextLink>
                 </Flex>
 
-                {/* Mobile */}
+                {/* The next IconButton is tHamburgerIcon when the view is from a mobile. */}
                 <IconButton
                     aria-label="Open Menu"
                     size="lg"
@@ -69,6 +69,7 @@ export const Navbar = ({ children }) => {
                     onClick={() => changeDisplay('flex')}
                     display={['flex', 'flex', 'none', 'none']}
                 />
+                {/* The next Switch is the button to change to dark mode. In both cases. */}
                 <Switch
                     color="green"
                     isChecked={isDark}
@@ -77,7 +78,7 @@ export const Navbar = ({ children }) => {
 
             </Flex>
 
-            {/* Mobile Content */}
+            {/* Mobile */}
             <Flex
                 w='100vw'
                 display={display}
@@ -90,6 +91,8 @@ export const Navbar = ({ children }) => {
                 overflowY="auto"
                 flexDir="column"
             >
+                {/*     The next Flex is the X button to close the HamburgerIcon.
+                */}.
                 <Flex justify="flex-end">
                     <IconButton
                         mt={2}
