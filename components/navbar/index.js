@@ -3,6 +3,7 @@ import { useColorMode, Switch, Flex, Button, IconButton, Box, Text } from '@chak
 import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons'
 import NextLink from 'next/link'
 import Footer from '../footer'
+import Languages from '../languages'
 
 
 export const Navbar = ({ children }) => {
@@ -22,43 +23,48 @@ export const Navbar = ({ children }) => {
                     display={['none', 'none', 'flex', 'flex']}
                 >
                     <NextLink href="/" passHref>
-                        <Button
-                            as="a"
-                            variant="ghost"
-                            aria-label="Home"
-                            my={5}
-                            w="100%"
-                        >
-                            Home
-                        </Button>
-                    </NextLink>
+                            <Button
+                                as="a"
+                                variant="ghost"
+                                aria-label="Home"
+                                my={5}
+                                w="100%"
+                            >
+                                Home
+                            </Button>
+                        </NextLink>
 
-                    <NextLink href="/projects" passHref>
-                        <Button
-                            as="a"
-                            variant="ghost"
-                            aria-label="Projects"
-                            my={5}
-                            w="100%"
-                        >
-                            Projects
-                        </Button>
-                    </NextLink>
+                        <NextLink href="/projects" passHref>
+                            <Button
+                                as="a"
+                                variant="ghost"
+                                aria-label="Projects"
+                                my={5}
+                                w="100%"
+                            >
+                                Projects
+                            </Button>
+                        </NextLink>
 
-                    <NextLink href="/skills" passHref>
-                        <Button
-                            as="a"
-                            variant="ghost"
-                            aria-label="Skills"
-                            my={5}
-                            w="100%"
-                        >
-                            Skills
-                        </Button>
-                    </NextLink>
+                        <NextLink href="/skills" passHref>
+                            <Button
+                                as="a"
+                                variant="ghost"
+                                aria-label="Skills"
+                                my={5}
+                                w="100%"
+                            >
+                                Skills
+                            </Button>
+                        </NextLink>
                 </Flex>
+                <Flex
+                    display={['none', 'none', 'flex', 'flex']}>
+                    <Languages />
+                </Flex>
+                
 
-                {/* The next IconButton is tHamburgerIcon when the view is from a mobile. */}
+                {/* The next IconButton is the HamburgerIcon when the view is from a mobile. */}
                 <IconButton
                     aria-label="Open Menu"
                     size="lg"
@@ -69,13 +75,14 @@ export const Navbar = ({ children }) => {
                     onClick={() => changeDisplay('flex')}
                     display={['flex', 'flex', 'none', 'none']}
                 />
+
+
                 {/* The next Switch is the button to change to dark mode. In both cases. */}
                 <Switch
                     color="green"
                     isChecked={isDark}
                     onChange={toggleColorMode}
                 />
-
             </Flex>
 
             {/* Mobile */}
@@ -146,6 +153,7 @@ export const Navbar = ({ children }) => {
                         </Button>
                     </NextLink>
                 </Flex>
+                <Languages />
             </Flex>
             <Box mx="auto" flex={1} p={4} maxW={"7xl"} width="100%">
                 {children}
