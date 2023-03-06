@@ -24,29 +24,26 @@
         "timeSeries": "Time Series",
         "survival": "Survaval Analysis",
         "network": "Network Theory",
-        "deep": "Deep Learning"
-    },
-
-    "projects": {
-        "homeNavBar": "Home",
-        "projectsNavBar": "Projects",
-        "skillsNavBar": "Skills"   
-    },
-
-    "skills" :{
-        "tittle": "Skills",
-        "dataSciencePackages": "Data Science Packages",
-        "programmingLanguages": "Programming Languages",
-        "dataBase": "Data Base",
-        "dataVisualization": "Data dataVisualization",
-        "frameworks": "Frameworks",
-        "knowledge": "Knowledge",
-        "probability": "Probability",
-        "statistics": "Statistics",
-        "generalized": "Generalized Linear Models",
-        "timeSeries": "Time Series",
-        "survival": "Survaval Analysis",
-        "network": "Network Theory",
-        "deep": "Deep Learning"
+        "deep": "Deep Learning",
+        "projectsButton": "Go",
+        "projectsElectricityTittle": "Electricity Consumption",
+        "projectsElectricityDescription": "Most interesting public companies to invest in the energy sector.",
+        "projectsElectricityView": "Research", 
+        "projectsStockTittle": "Stock Indices",
+        "projectsStockDescription": "Find the most important stock market indices.",
+        "projectsStockView": "Research",
+        "projectsMarketSalesTittle": "Market Sales",
+        "projectsMarketSalesDescription": "Basic analysis of a sales database using Python.",
+        "projectsMarketSalesView": "Code",
+        "projectsAssetTittle": "Asset crash prediction",
+        "projectsAssetDescription": "Construction of models to predict the eventual falls of the asset.",
+        "projectsAssetView": "Code",
+        "projectsWallstreetTittle": "WallStreetBets",
+        "projectsWallstreetDescription": "Analysis of the posts made in the reddit forum for investment decision making.",
+        "projectsWallstreetView": "Code",
+        "projectsCovidTittle": "Covid",
+        "projectsCovidDescription": "Analysis of the last week of January in 2020.",
+        "projectsCovidView": "Dashboard"
     }
+
 }

@@ -12,7 +12,7 @@ export default function Skills(props) {
             </Center>
             <Center>
                 <Box boxSize='xs'>
-                    <Image src="./rubikCube.png" alt='skills' />
+                    <Image src="/rubikCube.png" alt='skills' />
                 </Box>
             </Center>
             <br />

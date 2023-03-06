@@ -1,7 +1,9 @@
 import { Box, useColorModeValue, Heading, Stack, Image, Text, Link, Button } from "@chakra-ui/react";
 
 
-const Projectinfo = ({ titulillo, image, linkTo, samePage }) => {
+const Projectinfo = ({ image, linkTo, samePage, imageTittle, imageDescription, imageView, imageButton }) => {
+  // console.log("SIMEI");
+  // console.log(info);
   return (
     <Box
       role={"group"}
@@ -37,17 +39,37 @@ const Projectinfo = ({ titulillo, image, linkTo, samePage }) => {
         }}
       >
         <Image
-            rounded={"lg"}
-            height={230}
-            width={282}
-            objectFit={"cover"}
-            src={image}
-          />
+          rounded={"lg"}
+          height={230}
+          width={282}
+          objectFit={"cover"}
+          src={image}
+        />
 
       </Box>
       <Stack pt={10} align={"center"}>
         <Heading fontSize={"xl"} fontFamily={"body"} fontWeight={500}>
 
+          <Heading fontSize={"xl"} fontFamily={"body"} fontWeight={500}>
+            {imageTittle}
+          </Heading>
+
+        </Heading>
+      </Stack>
+
+      <Stack pt={10} align={"left"}>
+        <Text fontSize={"lg"} fontFamily={"body"} fontWeight={500}>
+          {imageDescription}
+        </Text>
+      </Stack>
+
+
+
+      <Stack pt={10} align={"center"}>
+        <Text fontSize={"lg"} fontFamily={"body"} fontWeight={500}>
+          {imageView}
+        </Text>
+        <Heading fontSize={"xl"} fontFamily={"body"} fontWeight={500}>
           <Button onClick={(e) => {
             e.preventDefault();
             if (!samePage) {
@@ -56,7 +78,9 @@ const Projectinfo = ({ titulillo, image, linkTo, samePage }) => {
               window.open([linkTo], "_self");
             }
           }}>
-            {titulillo}
+            <Text fontSize={"2xl"} fontFamily={"body"} fontWeight={500}>
+              {imageButton}
+            </Text>
           </Button>
         </Heading>
       </Stack>

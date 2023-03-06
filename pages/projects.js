@@ -14,7 +14,7 @@ export default function Projects(props) {
             </Center>
             <Center>
                 <Box boxSize='xs'>
-                    <Image src="./portfolio.png" alt='projects' />
+                    <Image src="/portfolio.png" alt='projects' />
                 </Box>
             </Center>
             <br />
@@ -25,7 +25,7 @@ export default function Projects(props) {
                 </TabList>
                 <TabPanels>
                     <TabPanel>
-                        <Datagrid />
+                        <Datagrid data={web}/>
                     </TabPanel>
                     <TabPanel>
                         <Web3grid />
