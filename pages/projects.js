@@ -28,7 +28,7 @@ export default function Projects(props) {
                         <Datagrid data={web}/>
                     </TabPanel>
                     <TabPanel>
-                        <Web3grid />
+                        <Web3grid data={web}/>
                     </TabPanel>
                 </TabPanels>
             </Tabs>

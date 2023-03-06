@@ -3,14 +3,15 @@ import { Flex, Text, Grid, Box } from "@chakra-ui/react";
 import Projectinfo from "../projectinfo";
 
 
-export default function Web3grid() {
+export default function Web3grid({data}) {
 
     return (
         <Box>
             <Grid templateColumns="repeat(1, minmax(250px, 1fr))" gap={6}>
-                <Projectinfo titulillo={"NFT market"} image={"/web3/nft.jpg"} linkTo={"https://github.com/KenatSF/MarketCore"} samePage={false} />
-                <Projectinfo titulillo={"Flash loans"} image={"/web3/light.jpg"} linkTo={"https://github.com/KenatSF/Flash_Loans_V3"} samePage={false} />
-                <Projectinfo titulillo={"Multisig"} image={"/web3/multisig.jpg"} linkTo={"https://github.com/KenatSF/Solidity_Multisig_Wallet"} samePage={false} />
+                <Projectinfo image={"/web3/light.jpg"} linkTo={"https://github.com/KenatSF/Flash_Loans_V3"} samePage={false} imageTittle={data.projectsFlashTittle} imageDescription={data.projectsFlashDescription} imageView={data.projectsFlashView} imageButton={data.projectsButton}/>
+                <Projectinfo image={"/web3/hacker.jpg"} linkTo={"https://github.com/KenatSF/Hacking_DeFi_Protocols"} samePage={false} imageTittle={data.projectsHacksTittle} imageDescription={data.projectsHacksDescription} imageView={data.projectsHacksView} imageButton={data.projectsButton}/>
+                <Projectinfo image={"/web3/nft.jpg"} linkTo={"https://github.com/KenatSF/MarketCore/tree/main/contracts"} samePage={false} imageTittle={data.projectsNFTTittle} imageDescription={data.projectsNFTDescription} imageView={data.projectsNFTView} imageButton={data.projectsButton}/>
+                <Projectinfo image={"/web3/multisig.jpg"} linkTo={"https://github.com/KenatSF/Solidity_Multisig_Wallet/blob/main/contracts/Firmas.sol"} samePage={false} imageTittle={data.projectsMultiTittle} imageDescription={data.projectsMultiDescription} imageView={data.projectsMultiView} imageButton={data.projectsButton}/>
             </Grid>
         </Box>
 

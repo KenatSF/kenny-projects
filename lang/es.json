@@ -33,7 +33,7 @@
         "projectsStockDescription": "Encontrar los índices más importantes del mercado.",
         "projectsStockView": "Investigación",
         "projectsMarketSalesTittle": "Ventas de una tienda",
-        "projectsMarketSalesDescription": "Básico análisis de una base de datos de ventas, usando Python.",
+        "projectsMarketSalesDescription": "Análisis de una base de datos de ventas, usando Python.",
         "projectsMarketSalesView": "Código",
         "projectsAssetTittle": "Predicción de caídas",
         "projectsAssetDescription": "Construcción de modelos para predecir la caída de los activos en el mercado.",
@@ -43,7 +43,19 @@
         "projectsWallstreetView": "Código",
         "projectsCovidTittle": "Covid",
         "projectsCovidDescription": "Análisis de la última semana de Enero 2020.",
-        "projectsCovidView": "Dashboard"
+        "projectsCovidView": "Dashboard",
+        "projectsNFTTittle": "NFT Market",
+        "projectsNFTDescription": "Construye tu propio mercado.",
+        "projectsNFTView": "Código",
+        "projectsFlashTittle": "Flash Loans",
+        "projectsFlashDescription": "Pide dinero prestado para operar en la blockchain en una sola transacción.",
+        "projectsFlashView": "Código",
+        "projectsMultiTittle": "Multifirma",
+        "projectsMultiDescription": "Guarda tu dinero de manera segura.",
+        "projectsMultiView": "Código",
+        "projectsHacksTittle": "Hackeando protocolos",
+        "projectsHacksDescription": "Comprende como ocurrieron algunos hackeos del mundo real.",
+        "projectsHacksView": "Código"
     }
 
 }
