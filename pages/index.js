@@ -6,7 +6,7 @@ import Social from "../components/social";
 
 export default function Home(props) {
   const { web } = props;
-  console.log(web);
+
   return (
     <VStack p={5}>
       <Header myInfo={web.mySelfInfo}></Header>

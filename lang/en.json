@@ -60,7 +60,8 @@
         "projectsMultiView": "Code",
         "projectsHacksTittle": "Hacking Protocols",
         "projectsHacksDescription": "Understand some hacks from the real world.",
-        "projectsHacksView": "Code"
+        "projectsHacksView": "Code",
+        "electricityElectricPlants": "Electric Plants"
     }
 
 }
