@@ -39,29 +39,23 @@
         "projectsStockView": "Research",
         "projectsMarketSalesTittle": "Market Sales",
         "projectsMarketSalesDescription": "Analysis of a sales database using Python.",
-        "projectsMarketSalesView": "Code",
         "projectsAssetTittle": "Asset crash prediction",
         "projectsAssetDescription": "Construction of models to predict the eventual falls of the asset.",
-        "projectsAssetView": "Code",
         "projectsWallstreetTittle": "WallStreetBets",
         "projectsWallstreetDescription": "Analysis of the posts made in the reddit forum for investment decision making.",
-        "projectsWallstreetView": "Code",
         "projectsCovidTittle": "Covid",
         "projectsCovidDescription": "Analysis of the last week of January in 2020.",
         "projectsCovidView": "Dashboard",
         "projectsNFTTittle": "NFT Market",
         "projectsNFTDescription": "Build your own Market.",
-        "projectsNFTView": "Code",
         "projectsFlashTittle": "Flash Loans",
         "projectsFlashDescription": "Borrow money to operate in the blockchain in a single transaction.",
-        "projectsFlashView": "Code",
         "projectsMultiTittle": "Multisignature",
         "projectsMultiDescription": "Save your funds safely.",
-        "projectsMultiView": "Code",
         "projectsHacksTittle": "Hacking Protocols",
         "projectsHacksDescription": "Understand some hacks from the real world.",
-        "projectsHacksView": "Code",
-        "electricityElectricPlants": "Electric Plants"
+        "electricityElectricPlants": "Electric Plants",
+        "code": "Code"
     }
 
 }
