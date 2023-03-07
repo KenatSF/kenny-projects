@@ -26,7 +26,7 @@ function Description({ infoLeft, infoRight, text1, text2, text3, text4, mailText
 
     return (
         <Box >
-            <Box w={isNotSmallerScreen ? "500px" : "350px"} h={isNotSmallerScreen ? "700" : "900"} >
+            <Box alignSelf="left" px="16" py="16" h={isNotSmallerScreen ? "400" : "1000"}>
                 <br />
                 <br />
                 <Text fontSize='xl'>{text1}</Text>
@@ -42,7 +42,7 @@ function Description({ infoLeft, infoRight, text1, text2, text3, text4, mailText
 
 
             </Box>
-            <Box w={isNotSmallerScreen ? "500px" : "350px"} h={isNotSmallerScreen ? "300" : "100"} >
+            <Box  alignSelf="left" px="16" py="16" h={isNotSmallerScreen ? "400" : "300"}>
                 <br />
                 <br />
 
