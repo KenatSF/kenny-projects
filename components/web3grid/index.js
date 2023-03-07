@@ -32,7 +32,7 @@ export default function Web3grid() {
                     linkTo={"https://github.com/KenatSF/MarketCore/tree/main/contracts"}
                     samePage={false}
                     imageTittle={"NFT Market"}
-                    imageDescription={"Build your own Market."}
+                    imageDescription={"Build your own NFT Market within a blockchain EVM compatible."}
                     imageView={"Code"}
                     imageButton={"Go"} />
                 <Projectinfo
@@ -40,7 +40,7 @@ export default function Web3grid() {
                     linkTo={"https://github.com/KenatSF/Solidity_Multisig_Wallet/blob/main/contracts/Firmas.sol"}
                     samePage={false}
                     imageTittle={"Multisignature"}
-                    imageDescription={"Save your funds safely."}
+                    imageDescription={"Save your crypto funds safely with multiple signers."}
                     imageView={"Code"}
                     imageButton={"Go"} />
             </Grid>

@@ -16,7 +16,7 @@ export default function Datagrid() {
                     linkTo={"https://github.com/KenatSF/Heavy-Indexes/blob/main/ProyectoRedes.pdf"} s
                     amePage={false} 
                     imageTittle={"Stock Indices"} 
-                    imageDescription={"Find the most important stock market indices."} 
+                    imageDescription={"Find the most important stock market indices.                                "} 
                     imageView={"Research"} 
                     imageButton={"Go"} />
                 <Projectinfo 
@@ -24,7 +24,7 @@ export default function Datagrid() {
                     linkTo={"https://github.com/KenatSF/WallStreetBets_Watcher"} 
                     samePage={false} 
                     imageTittle={"WallStreetBets"} 
-                    imageDescription={"Analysis of the posts made in the reddit forum for investment decision making."} 
+                    imageDescription={"Analysis of the posts in reddit for investment decision making."} 
                     imageView={"Code"} 
                     imageButton={"Go"} />
                 <Projectinfo 

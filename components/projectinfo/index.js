@@ -65,7 +65,7 @@ const Projectinfo = ({ image, linkTo, samePage, imageTittle, imageDescription, i
 
 
 
-      <Stack pt={10} align={"center"}>
+      <Stack pt={2} align={"center"}>
         <Text fontSize={"lg"} fontFamily={"body"} fontWeight={500}>
           {imageView}
         </Text>
