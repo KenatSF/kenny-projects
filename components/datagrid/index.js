@@ -1,14 +1,16 @@
 import { Flex, Text, Grid, Box, SimpleGrid, TableContainer, Table, Tbody, Tr, Td } from "@chakra-ui/react";
-
+import { useMediaQuery } from '@chakra-ui/media-query';
 import Projectinfo from "../projectinfo";
 
 
 export default function Datagrid() {
     // Datagrid({data})
 
+    const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
+
     return (
         <Box>
-            <Grid templateColumns="repeat(1, minmax(250px, 1fr))" gap={6}>
+            <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>
                 <Projectinfo 
                     image={"/datascience/stockindices.jpg"} 
                     linkTo={"https://github.com/KenatSF/Heavy-Indexes/blob/main/ProyectoRedes.pdf"} s
@@ -41,7 +43,9 @@ export default function Datagrid() {
                     imageDescription={"Analysis of a sales database using Python."} 
                     imageView={"Code"} 
                     imageButton={"Go"} />
-                <Projectinfo 
+            </Grid>
+            <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>
+            <Projectinfo 
                     image={"/datascience/asset.png"} 
                     linkTo={"https://github.com/KenatSF/Bitcoin-fall-prediction/blob/main/project_r/2_model_selection.ipynb"} 
                     samePage={false} 

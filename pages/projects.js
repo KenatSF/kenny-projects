@@ -4,12 +4,12 @@ import React from "react";
 import Datagrid from "../components/datagrid";
 import Web3grid from "../components/web3grid";
 
-export default function Projects(props) {
+export default function Projects() {
     // Projects(props)
     //const { web } = props;
 
     return (
-        <Box flex="1" px={{ base: '25', md: '100', lg: '400' }} py="20">
+        <Box flex="1" px={{ base: '25', md: '30', lg: '30' }} py="1">
             <Center>
                 <Text fontSize={{ base: '24px', md: '30px', lg: '45px' }}  >Projects</Text>
             </Center>
@@ -19,12 +19,12 @@ export default function Projects(props) {
                 </Box>
             </Center>
             <br />
-            <Tabs size="lg" colorScheme="white" align={{ base: 'end', md: 'center', lg: 'center' }} variant="enclosed">
+            <Tabs variant="enclosed">
                 <TabList>
-                    <Tab fontWeight="bold">{"Data Science"}</Tab>
-                    <Tab fontWeight="bold">{"BlockChain"}</Tab>
+                    <Tab fontWeight="bold">Data Science</Tab>
+                    <Tab fontWeight="bold">BlockChain</Tab>
                 </TabList>
-                <TabPanels>
+                <TabPanels> 
                     <TabPanel>
                         <Datagrid />
                     </TabPanel>

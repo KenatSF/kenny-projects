@@ -1,14 +1,16 @@
 import { Flex, Text, Grid, Box } from "@chakra-ui/react";
-
+import { useMediaQuery } from '@chakra-ui/media-query';
 import Projectinfo from "../projectinfo";
 
 
 export default function Web3grid() {
     // Web3grid({ data }) 
 
+    const [isNotSmallerScreen] = useMediaQuery("(min-width:600px)");
+
     return (
         <Box>
-            <Grid templateColumns="repeat(1, minmax(250px, 1fr))" gap={6}>
+            <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>
                 <Projectinfo
                     image={"/web3/light.jpg"}
                     linkTo={"https://github.com/KenatSF/Flash_Loans_V3"}
