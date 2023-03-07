@@ -8,13 +8,20 @@ import { useRouter } from 'next/router'
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 
 
-export const Navbar = ({ children, props }) => {
+export const Navbar = ({ children }) => {
+    // export const Navbar = ({ children, props }) 
     const { colorMode, toggleColorMode } = useColorMode('dark');
     const [display, changeDisplay] = useState('none');
     const router = useRouter();
 
-    const { web } = props;
-    console.log(web);
+    // const { web } = props;
+    // console.log(web);
+
+    const web = {
+        home: "Home",
+        projects: "Projects",
+        skills: "Skills"
+    }
 
     async function myHome() {
         router.push("/");
@@ -70,10 +77,10 @@ export const Navbar = ({ children, props }) => {
                         {web.skills}
                     </Button>
                 </Flex>
-                <Flex
+                {/* <Flex
                     display={['none', 'none', 'flex', 'flex']}>
                     <Languages />
-                </Flex>
+                </Flex> */}
                 <Flex
                     display={['none', 'none', 'flex', 'flex']}>
                     <IconButton mt={0} aria-label="Toggle Mode" onClick={toggleColorMode}>
@@ -161,12 +168,12 @@ export const Navbar = ({ children, props }) => {
                         {web.skills}
                     </Button>
                 </Flex>
-                <Flex
+                {/* <Flex
                     flexDir="column"
                     align="center"
                 >
                     <Languages />
-                </Flex>
+                </Flex> */}
                 <Flex
                     flexDir="column"
                     align="center"

@@ -2,13 +2,14 @@ import { Flex, Text, Box, Center, Image, Menu, Portal, MenuButton, MenuItem, Men
 import React from "react";
 
 
-export default function Skills(props) {
-    const { web } = props;
+export default function Skills() {
+    //Skills(props) 
+    // const { web } = props;
 
     return (
         <Box>
             <Center>
-                <Text fontSize={{ base: '24px', md: '30px', lg: '45px' }}  >{web.tittleSkills}</Text>
+                <Text fontSize={{ base: '24px', md: '30px', lg: '45px' }}  >Skills</Text>
             </Center>
             <Center>
                 <Box boxSize='xs'>
@@ -21,7 +22,7 @@ export default function Skills(props) {
             <Menu>
                 <MenuButton>
                     <Text fontSize={{ base: 'xl', md: '2xl', lg: '2xl' }}  noOfLines={[1]} as='b'>
-                        {web.dataSciencePackages} ↓
+                        Data Science Packages ↓
                     </Text>
                 </MenuButton>
                 <Portal>
@@ -70,7 +71,7 @@ export default function Skills(props) {
             <Menu>
                 <MenuButton>
                     <Text fontSize={{ base: 'xl', md: '2xl', lg: '2xl' }}  noOfLines={[1]} as='b'>
-                    {web.programmingLanguages} ↓
+                        Programming Languages ↓
                     </Text>
                 </MenuButton>
                 <Portal>
@@ -96,7 +97,7 @@ export default function Skills(props) {
             <Menu>
                 <MenuButton>
                     <Text fontSize={{ base: 'xl', md: '2xl', lg: '2xl' }}  noOfLines={[1]} as='b'>
-                    {web.dataBase} ↓
+                        Data Bases ↓
                     </Text>
                 </MenuButton>
                 <Portal>
@@ -113,7 +114,7 @@ export default function Skills(props) {
             <Menu>
                 <MenuButton>
                     <Text fontSize={{ base: 'xl', md: '2xl', lg: '2xl' }}  noOfLines={[1]} as='b'>
-                    {web.dataVisualization} ↓
+                        Data Visualization ↓
                     </Text>
                 </MenuButton>
                 <Portal>
@@ -133,7 +134,7 @@ export default function Skills(props) {
             <Menu>
                 <MenuButton>
                     <Text fontSize={{ base: 'xl', md: '2xl', lg: '2xl' }}  noOfLines={[1]} as='b'>
-                    {web.frameworks} ↓
+                        Frameworks ↓
                     </Text>
                 </MenuButton>
                 <Portal>
@@ -150,31 +151,31 @@ export default function Skills(props) {
             <Menu>
                 <MenuButton>
                     <Text fontSize={{ base: 'xl', md: '2xl', lg: '2xl' }}  noOfLines={[1]} as='b'>
-                    {web.knowledge} ↓
+                        Knowledge ↓
                     </Text>
                 </MenuButton>
                 <Portal>
                     <MenuList>
                         <MenuItem><Text fontSize='xl' noOfLines={[1, 2, 3]} >
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {web.probability}.
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Probability.
                         </Text></MenuItem>
                         <MenuItem><Text fontSize='xl' noOfLines={[1, 2, 3]} >
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {web.statistics}.
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Statistics.
                         </Text></MenuItem>
                         <MenuItem><Text fontSize='xl' noOfLines={[1, 2, 3]} >
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {web.generalized}.
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Generalized Linear Models.
                         </Text></MenuItem>
                         <MenuItem><Text fontSize='xl' noOfLines={[1, 2, 3]} >
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {web.timeSeries}.
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Time Series.
                         </Text></MenuItem>
                         <MenuItem><Text fontSize='xl' noOfLines={[1, 2, 3]} >
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {web.survival}.
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Survival Analysis.
                         </Text></MenuItem>
                         <MenuItem><Text fontSize='xl' noOfLines={[1, 2, 3]} >
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {web.network}.
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Network Theory.
                         </Text></MenuItem>
                         <MenuItem><Text fontSize='xl' noOfLines={[1, 2, 3]} >
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - {web.deep}.
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - Deep Learning.
                         </Text></MenuItem>
                     </MenuList>
                 </Portal>
@@ -197,12 +198,12 @@ export default function Skills(props) {
     )
 }
 
-export async function getStaticProps({ locale }) {
-    const response = await import(`../lang/${locale}.json`)
+// export async function getStaticProps({ locale }) {
+//     const response = await import(`../lang/${locale}.json`)
   
-    return {
-        props: {
-          web: response.default.web,
-        },
-    };
-  }
+//     return {
+//         props: {
+//           web: response.default.web,
+//         },
+//     };
+//   }
