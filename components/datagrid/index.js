@@ -12,19 +12,11 @@ export default function Datagrid() {
         <Box>
             <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>
                 <Projectinfo 
-                    image={"/datascience/stockindices.jpg"} 
-                    linkTo={"https://github.com/KenatSF/Heavy-Indexes/blob/main/ProyectoRedes.pdf"} s
-                    amePage={false} 
-                    imageTittle={"Stock Indices"} 
-                    imageDescription={"Find the most important stock market indices.                                "} 
-                    imageView={"Research"} 
-                    imageButton={"Go"} />
-                <Projectinfo 
-                    image={"/datascience/wallstreetbets.jpg"} 
-                    linkTo={"https://github.com/KenatSF/WallStreetBets_Watcher"} 
+                    image={"/datascience/market.jpg"} 
+                    linkTo={"https://github.com/KenatSF/Basic_Data_Analysis/blob/main/2_Exploratory_Analysis.ipynb"} 
                     samePage={false} 
-                    imageTittle={"WallStreetBets"} 
-                    imageDescription={"Analysis of the posts in reddit for investment decision making."} 
+                    imageTittle={"Market Sales"} 
+                    imageDescription={"Analysis of a sales database using Python."} 
                     imageView={"Code"} 
                     imageButton={"Go"} />
                 <Projectinfo 
@@ -36,23 +28,24 @@ export default function Datagrid() {
                     imageView={"Research"} 
                     imageButton={"Go"} />
                 <Projectinfo 
-                    image={"/datascience/market.jpg"} 
-                    linkTo={"https://github.com/KenatSF/Basic_Data_Analysis/blob/main/2_Exploratory_Analysis.ipynb"} 
-                    samePage={false} 
-                    imageTittle={"Market Sales"} 
-                    imageDescription={"Analysis of a sales database using Python."} 
-                    imageView={"Code"} 
-                    imageButton={"Go"} />
-            </Grid>
-            <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>
-            <Projectinfo 
                     image={"/datascience/asset.png"} 
                     linkTo={"https://github.com/KenatSF/Bitcoin-fall-prediction/blob/main/project_r/2_model_selection.ipynb"} 
                     samePage={false} 
                     imageTittle={"Asset crash prediction"} 
                     imageDescription={"Construction of models to predict the eventual falls of the asset."} 
                     imageView={"Code"} 
+                    imageButton={"Go"} />         
+                <Projectinfo 
+                    image={"/datascience/wallstreetbets.jpg"} 
+                    linkTo={"https://github.com/KenatSF/WallStreetBets_Watcher"} 
+                    samePage={false} 
+                    imageTittle={"WallStreetBets"} 
+                    imageDescription={"Analysis of the posts in reddit for investment decision making."} 
+                    imageView={"Code"} 
                     imageButton={"Go"} />
+                
+            </Grid>
+            <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>
                 <Projectinfo 
                     image={"/datascience/covid.jpg"} 
                     linkTo={"https://public.tableau.com/app/profile/kenat2644/viz/CasosCovidEnero2020/Dashboard1"} 
@@ -60,6 +53,14 @@ export default function Datagrid() {
                     imageTittle={"Covid"} 
                     imageDescription={"Analysis of the last week of January in 2020."} 
                     imageView={"Dashboard"} 
+                    imageButton={"Go"} />
+                <Projectinfo 
+                    image={"/datascience/stockindices.jpg"} 
+                    linkTo={"https://github.com/KenatSF/Heavy-Indexes/blob/main/ProyectoRedes.pdf"} s
+                    amePage={false} 
+                    imageTittle={"Stock Indices"} 
+                    imageDescription={"Find the most important stock market indices.                                "} 
+                    imageView={"Research"} 
                     imageButton={"Go"} />
             </Grid>
         </Box>
