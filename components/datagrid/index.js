@@ -48,18 +48,20 @@ export default function Datagrid() {
             <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>
                 <Projectinfo 
                     image={"/datascience/covid.jpg"} 
-                    linkTo={"https://public.tableau.com/app/profile/kenat2644/viz/CasosCovidEnero2020/Dashboard1"} 
+                    linkTo={"https://app.powerbi.com/view?r=eyJrIjoiMzVhODMxZDEtOTQwNS00ZjhjLTk4Y2QtNmU1MGM3YmUyM2RiIiwidCI6ImU4NDQ4ZDZjLWM0ZjctNDQ2Ny1hZWMwLWU5NTdkNzcyNTFhMyJ9"} 
                     samePage={false} 
                     imageTittle={"Covid"} 
                     imageDescription={"Analysis of the last week of January in 2020."} 
                     imageView={"Dashboard"} 
                     imageButton={"Go"} />
+            </Grid>
+            <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>
                 <Projectinfo 
                     image={"/datascience/stockindices.jpg"} 
                     linkTo={"https://github.com/KenatSF/Heavy-Indexes/blob/main/ProyectoRedes.pdf"} s
                     amePage={false} 
                     imageTittle={"Stock Indices"} 
-                    imageDescription={"Find the most important stock market indices.                                "} 
+                    imageDescription={"Find the most important stock market indices."} 
                     imageView={"Research"} 
                     imageButton={"Go"} />
             </Grid>
