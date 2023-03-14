@@ -51,11 +51,9 @@ export default function Datagrid() {
                     linkTo={"https://app.powerbi.com/view?r=eyJrIjoiMzVhODMxZDEtOTQwNS00ZjhjLTk4Y2QtNmU1MGM3YmUyM2RiIiwidCI6ImU4NDQ4ZDZjLWM0ZjctNDQ2Ny1hZWMwLWU5NTdkNzcyNTFhMyJ9"} 
                     samePage={false} 
                     imageTittle={"Covid"} 
-                    imageDescription={"Analysis of the last week of January in 2020."} 
+                    imageDescription={"Analys of covid cases in Mexico throughout 2022."} 
                     imageView={"Dashboard"} 
                     imageButton={"Go"} />
-            </Grid>
-            <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>
                 <Projectinfo 
                     image={"/datascience/stockindices.jpg"} 
                     linkTo={"https://github.com/KenatSF/Heavy-Indexes/blob/main/ProyectoRedes.pdf"} s
@@ -64,6 +62,8 @@ export default function Datagrid() {
                     imageDescription={"Find the most important stock market indices."} 
                     imageView={"Research"} 
                     imageButton={"Go"} />
+            </Grid>
+            <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>     
             </Grid>
         </Box>
 

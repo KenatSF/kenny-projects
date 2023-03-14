@@ -10,7 +10,7 @@ export default function Home() {
 
   return (
     <VStack p={5}>
-      <Header myInfo={"Data Science - Automatization scripts - Blockchain"}></Header>
+      <Header myInfo={"Data Science - Automatization scripts"}></Header>
       <Social></Social>
       <Description
         infoLeft={"Projects"}
