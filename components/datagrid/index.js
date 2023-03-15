@@ -48,7 +48,7 @@ export default function Datagrid() {
             <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>
                 <Projectinfo 
                     image={"/datascience/covid.jpg"} 
-                    linkTo={"https://app.powerbi.com/view?r=eyJrIjoiMzVhODMxZDEtOTQwNS00ZjhjLTk4Y2QtNmU1MGM3YmUyM2RiIiwidCI6ImU4NDQ4ZDZjLWM0ZjctNDQ2Ny1hZWMwLWU5NTdkNzcyNTFhMyJ9"} 
+                    linkTo={"https://public.tableau.com/app/profile/kenat2644/viz/COVID_MEXICO_2022/COVID_2022"} 
                     samePage={false} 
                     imageTittle={"Covid"} 
                     imageDescription={"Analys of covid cases in Mexico throughout 2022."} 
