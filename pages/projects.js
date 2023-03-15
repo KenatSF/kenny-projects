@@ -2,7 +2,7 @@ import { Flex, Text, Box, TabPanels, Tab, TabList, Tabs, TabPanel, Link, Center,
 import React from "react";
 
 import Datagrid from "../components/datagrid";
-//import Web3grid from "../components/web3grid";
+import Web3grid from "../components/web3grid";
 
 export default function Projects() {
     // Projects(props)
@@ -23,10 +23,14 @@ export default function Projects() {
                 <Tabs variant="enclosed">
                     <TabList>
                         <Tab fontWeight="bold">Data Science</Tab>
+                        <Tab fontWeight="bold">Web 3.0</Tab>
                     </TabList>
                     <TabPanels>
                         <TabPanel>
                             <Datagrid />
+                        </TabPanel>
+                        <TabPanel>
+                            <Web3grid />
                         </TabPanel>
                     </TabPanels>
                 </Tabs>
@@ -48,20 +52,7 @@ export default function Projects() {
 
 
 
-{/* <Tabs variant="enclosed">
-                <TabList>
-                    <Tab fontWeight="bold">Data Science</Tab>
-                    <Tab fontWeight="bold">Web 3.0</Tab>
-                </TabList>
-                <TabPanels> 
-                    <TabPanel>
-                        <Datagrid />
-                    </TabPanel>
-                    <TabPanel>
-                        <Web3grid />
-                    </TabPanel>
-                </TabPanels>
-            </Tabs> */}
+
 
 
 

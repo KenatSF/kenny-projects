@@ -12,14 +12,6 @@ export default function Datagrid() {
         <Box>
             <Grid templateColumns={isNotSmallerScreen ? "repeat(4, minmax(350px, 1fr))" : "repeat(1, minmax(250px, 1fr))"}>
                 <Projectinfo 
-                    image={"/datascience/market.jpg"} 
-                    linkTo={"https://github.com/KenatSF/Basic_Data_Analysis/blob/main/2_Exploratory_Analysis.ipynb"} 
-                    samePage={false} 
-                    imageTittle={"Market Sales"} 
-                    imageDescription={"Analysis of a sales database using Python."} 
-                    imageView={"Code"} 
-                    imageButton={"Go"} />
-                <Projectinfo 
                     image={"/datascience/electricity.jpg"} 
                     linkTo={"https://github.com/KenatSF/Electricity_Consumption"} 
                     samePage={false} 
@@ -34,7 +26,15 @@ export default function Datagrid() {
                     imageTittle={"Asset crash prediction"} 
                     imageDescription={"Construction of models to predict the eventual falls of the asset."} 
                     imageView={"Code"} 
-                    imageButton={"Go"} />         
+                    imageButton={"Go"} />  
+                <Projectinfo 
+                    image={"/datascience/market.jpg"} 
+                    linkTo={"https://github.com/KenatSF/Basic_Data_Analysis/blob/main/2_Exploratory_Analysis.ipynb"} 
+                    samePage={false} 
+                    imageTittle={"Market Sales"} 
+                    imageDescription={"Analysis of a sales database using Python."} 
+                    imageView={"Code"} 
+                    imageButton={"Go"} />       
                 <Projectinfo 
                     image={"/datascience/wallstreetbets.jpg"} 
                     linkTo={"https://github.com/KenatSF/WallStreetBets_Watcher"} 

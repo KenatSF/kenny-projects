@@ -40,7 +40,7 @@ export default function Web3grid() {
                     linkTo={"https://github.com/KenatSF/Solidity_Multisig_Wallet/blob/main/contracts/Firmas.sol"}
                     samePage={false}
                     imageTittle={"Multisignature"}
-                    imageDescription={"Save your crypto funds safely with multiple signers."}
+                    imageDescription={"Save your token funds safely with multiple signers."}
                     imageView={"Code"}
                     imageButton={"Go"} />
             </Grid>
