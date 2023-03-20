@@ -21,7 +21,7 @@ export default function Datagrid() {
                     imageButton={"Go"} />
                 <Projectinfo 
                     image={"/datascience/asset.png"} 
-                    linkTo={"https://github.com/KenatSF/Bitcoin-fall-prediction/blob/main/project_r/2_model_selection.ipynb"} 
+                    linkTo={"https://github.com/KenatSF/Asset-fall-prediction/blob/main/project_r/2_model_selection.ipynb"} 
                     samePage={false} 
                     imageTittle={"Asset crash prediction"} 
                     imageDescription={"Construction of models to predict the eventual falls of the asset."} 
